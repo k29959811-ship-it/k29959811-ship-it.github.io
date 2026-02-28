@@ -18,7 +18,8 @@
         }
 
         /* This is the "Glass" effect */
-        .glass-card {
+        .glass-card {<p>Total Visitors: <span id="counter">Loading...</span></p>
+p
             background: rgba(255, 255, 255, 0.1);
             backdrop-filter: blur(10px);
             border-radius: 20px;
@@ -62,6 +63,20 @@
         
         <p style="font-size: 0.8rem; opacity: 0.7;">Started at 13. Unstoppable by 21.</p>
     </div>
+<script>
+    // This is a simple local counter to start
+    let count = localStorage.getItem('page_view');
+
+    if (count) {
+        count = Number(count) + 1;
+    } else {
+        count = 1;
+    }
+
+    localStorage.setItem('page_view', count);
+    document.getElementById('counter').innerHTML = count;
+</script>
+
 
 </body>
 </html>
