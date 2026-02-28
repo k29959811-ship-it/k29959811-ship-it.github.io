@@ -3,28 +3,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <title>Visitor Counter</title>
+    <title>Future Solutions Architect</title>
     <style>
-        /* Styles */
         body {
+            background: linear-gradient(to right, #FFEDD5, #FBCFE8);
             font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
         }
-        .counter {
-            margin: 20px;
-            font-size: 24px;
+
+        .glass-card {
+            background: rgba(255, 255, 255, 0.8);
+            border-radius: 10px;
+            padding: 20px;
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            backdrop-filter: blur(5px);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
         }
     </style>
 </head>
 <body>
-    <div class="counter">Visitors: <span id="visitor-count">0</span></div>
-
+    <div class="glass-card">
+        <h1>Future Solutions Architect</h1>
+        <p>Welcome to the Future Solutions Architect portfolio site. Here we showcase innovative solutions and architecturally sound designs.
+        </p>
+        <p>Visitor Counter: <span id="counter">0</span></p>
+    </div>
     <script>
-        // Script for visitor counter
-        let visitorCount = localStorage.getItem('visitorCount') || 0;
-        visitorCount++;
-        localStorage.setItem('visitorCount', visitorCount);
-        document.getElementById('visitor-count').innerText = visitorCount;
+        let count = 0;
+        const counterElement = document.getElementById('counter');
+        setInterval(() => {
+            count++;
+            counterElement.textContent = count;
+        }, 1000);
     </script>
 </body>
 </html>
