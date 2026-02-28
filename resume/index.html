@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Bloodline Breaker | Future Solutions Architect</title>
+    <style>
+        /* This makes a cool "Deep Space" background */
+        body {
+            background: linear-gradient(135deg, #0f0c29, #302b63, #24243e);
+            color: white;
+            font-family: 'Segoe UI', sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+
+        /* This is the "Glass" effect */
+        .glass-card {<p>Total Visitors: <span id="counter">Loading...</span></p>
+p
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 30px;
+            width: 85%;
+            max-width: 400px;
+            border: 1px solid rgba(255, 255, 255, 0.2);
+            text-align: center;
+            box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+        }
+
+        h1 { font-size: 1.5rem; margin-bottom: 10px; }
+        .highlight { color: #00d2ff; font-weight: bold; }
+        .goal-box { 
+            background: rgba(0, 210, 255, 0.2); 
+            padding: 10px; 
+            border-radius: 10px; 
+            margin: 20px 0;
+            border: 1px solid #00d2ff;
+        }
+        ul { text-align: left; list-style: none; padding: 0; }
+        li::before { content: "🔹 "; }
+    </style>
+</head>
+<body>
+
+    <div class="glass-card">
+        <h1>FUTURE SOLUTIONS ARCHITECT 🚀</h1>
+        <p>Building a <span class="highlight">₱500,000/mo</span> Career</p>
+        
+        <div class="goal-box">
+            Target: <strong>₱100k Fresh Grad Salary</strong>
+        </div>
+
+        <h3>The Roadmap:</h3>
+        <ul>
+            <li>Mobile Coding (Level 1) - ✅</li>
+            <li>GitHub Portfolio - 🟡 Active</li>
+            <li>AWS Certifications - 🔒 Locked</li>
+        </ul>
+        
+        <p style="font-size: 0.8rem; opacity: 0.7;">Started at 13. Unstoppable by 21.</p>
+    </div>
+<script>
+    // This is a simple local counter to start
+    let count = localStorage.getItem('page_view');
+
+    if (count) {
+        count = Number(count) + 1;
+    } else {
+        count = 1;
+    }
+
+    localStorage.setItem('page_view', count);
+    document.getElementById('counter').innerHTML = count;
+</script>
+
+
+</body>
+</html>
