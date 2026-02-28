@@ -1,20 +1,24 @@
-# k29959811-ship-it.github.io
-A personal portfolio website showcasing my journey from Grade 7 toward becoming a Cloud Architect. Built with HTML and CSS 
-README.md 
-# My Personal Portfolio Website
-Welcome! This is my first step toward becoming a **Cloud Architect**.
+# 🚀 The Cloud Resume Challenge: Ph Edition
+### *Target: Principal Solutions Architect | Goal: ₱500k/mo*
 
-## 🚀 Project Overview
-This is a Level 1 project where I built a personal website from scratch. The goal was to learn how to structure data (HTML) and style it (CSS) before moving on to cloud-based automation.
+## 📍 About Me
+I am a 13-year-old aspiring **Cloud Architect** based in the Philippines. I am building my career from the ground up, starting with the **Cloud Resume Challenge**. My goal is to hit a **₱100,000 monthly salary** as a fresh graduate.
 
-## 🛠️ Technologies Used
-* **HTML5:** For the website structure.
-* **CSS3:** For the layout and design.
-* **GitHub Pages:** For hosting and deployment.
+## 🛠️ The Tech Stack (Current Mission)
+- **Frontend:** HTML5, CSS3 (Glassmorphism UI)
+- **Deployment:** GitHub Pages (Static Hosting)
+- **Version Control:** Git & GitHub
+- **Logic:** JavaScript (Vanilla)
 
-## ☁️ Cloud Path Connection
-Even though this is a basic site, hosting it on GitHub Pages is my first experience with **web hosting** and **deployment**, which are core skills for any Cloud Architect.
+## 📈 Roadmap to 500k
+- [x] Phase 1: Build & Deploy Static Resume via GitHub
+- [ ] Phase 2: Add JavaScript Visitor Counter
+- [ ] Phase 3: Integrate AWS Services (S3, DynamoDB, Lambda)
+- [ ] Phase 4: Achieve AWS Certified Solutions Architect - Associate
 
-## 🔗 Live Demo
-Check out my live site here: [https://yourusername.github.io](https://yourusername.github.io)
+## 🔗 Live Project
+View my progress here: [https://k29959811.github.io](https://k29959811.github.io)
+
+---
+*“Building systems today to architect the future tomorrow.”*
 
