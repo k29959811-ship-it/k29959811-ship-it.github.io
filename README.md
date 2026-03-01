@@ -1,20 +1,28 @@
-# k29959811-ship-it.github.io
-A personal portfolio website showcasing my journey from Grade 7 toward becoming a Cloud Architect. Built with HTML and CSS 
-README.md 
-# My Personal Portfolio Website
-Welcome! This is my first step toward becoming a **Cloud Architect**.
+ # ☁️ Mission: Senior Cloud Security Architect
+### "From Grade 7 to the Cloud" | Philippines 🇵🇭
 
-## 🚀 Project Overview
-This is a Level 1 project where I built a personal website from scratch. The goal was to learn how to structure data (HTML) and style it (CSS) before moving on to cloud-based automation.
+This repository hosts my **Digital Dream Board**—a roadmap detailing my journey from a student to a high-level Cloud Architect in BGC/Makati. It tracks my technical growth, career milestones, and life goals.
 
-## 🛠️ Technologies Used
-* **HTML5:** For the website structure.
-* **CSS3:** For the layout and design.
-* **GitHub Pages:** For hosting and deployment.
+## 🗺️ The Roadmap
+Built with a clear vision, this project categorizes my path into four pillars:
 
-## ☁️ Cloud Path Connection
-Even though this is a basic site, hosting it on GitHub Pages is my first experience with **web hosting** and **deployment**, which are core skills for any Cloud Architect.
+*   **📚 Education:** Transitioning from ICT/STEM to a BS in Computer Science at **UP Tacloban**.
+*   **💼 Career:** A calculated path from Associate to Senior Architect (Target: J.P. Morgan).
+*   **🏡 Lifestyle:** Visualizing the rewards of the grind (Modern Estate & The Garage).
+*   **💰 Financials:** A commitment to family and smart investing (MP2 & Tech Stocks).
 
-## 🔗 Live Demo
-Check out my live site here: [https://yourusername.github.io](https://yourusername.github.io)
+## 🛠️ Technical Stack (The Tools of the Trade)
 
+| Phase | Focus Technologies |
+| :--- | :--- |
+| **Current** | HTML5, CSS3, Python, Linux Fundamentals |
+| **Next Up** | AZ-900, AWS Cloud Practitioner |
+| **University** | Go, Terraform, Kubernetes, CISSP |
+
+## 🚀 Vision Statement
+> "Pay Family, Pay Savings, then Buy the Dream."
+
+I am currently building the foundation in HTML/CSS to document this journey. Every commit represents a step closer to the **₱200k+ monthly milestone** and the city lights of BGC.
+
+---
+**Current Status:** 🚀 Actively Learning | **Goal:** Cloud Architect
