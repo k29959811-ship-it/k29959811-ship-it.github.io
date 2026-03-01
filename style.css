@@ -1,44 +1,81 @@
-/* Core Professional Styles */
-body {
-  background-color: #0f172a; /* Dark Navy Blue */
-  color: #f8fafc; /* Soft White */
-  font-family: 'Inter', sans-serif;
-  line-height: 1.6;
-  margin: 0;
-  padding: 20px;
-}
+  <style>
+        :root {
+            --accent: #00d2ff;
+            --gold: #ffd700;
+            --bg: #0b0f19;
+            --glass: rgba(255, 255, 255, 0.03);
+            --border: rgba(255, 255, 255, 0.1);
+        }
 
-/* Glassmorphism Card (for your Roadmap/Dream sections) */
-.roadmap-card {
-  background: rgba(30, 41, 59, 0.7);
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  border-radius: 12px;
-  padding: 25px;
-  margin-bottom: 20px;
-  backdrop-filter: blur(10px);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-}
+        body {
+            background: var(--bg);
+            color: #e2e8f0;
+            font-family: 'Segoe UI', sans-serif;
+            margin: 0;
+            padding: 20px;
+            background-image: radial-gradient(circle at top right, #1e293b, transparent);
+        }
 
-/* Neon Glow Effect for Headings */
-h1, h2 {
-  color: #38bdf8; /* Sky Blue Neon */
-  text-shadow: 0 0 10px rgba(56, 189, 248, 0.5);
-  font-weight: 800;
-}
+        .container { max-width: 1000px; margin: auto; }
 
-/* Button with Hover Animation */
-.cta-button {
-  background: linear-gradient(90deg, #38bdf8, #818cf8);
-  color: white;
-  padding: 12px 24px;
-  border-radius: 8px;
-  text-decoration: none;
-  font-weight: bold;
-  transition: transform 0.3s ease;
-  display: inline-block;
-}
+        header { text-align: center; padding: 60px 0; }
+        h1 { color: var(--accent); text-transform: uppercase; letter-spacing: 4px; font-size: 2.5em; margin: 0; }
+        .subtitle { color: #64748b; font-size: 1.1em; margin-top: 10px; }
 
-.cta-button:hover {
-  transform: translateY(-3px);
-  box-shadow: 0 10px 20px rgba(56, 189, 248, 0.3);
-}
+        /* Navigation or Category Tabs */
+        .category-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(400px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+
+        .card {
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 30px;
+            backdrop-filter: blur(15px);
+            transition: 0.4s ease;
+        }
+
+        .card:hover { border-color: var(--accent); transform: translateY(-5px); box-shadow: 0 10px 30px rgba(0,0,0,0.5); }
+
+        h2 { color: var(--gold); border-bottom: 1px solid var(--border); padding-bottom: 15px; margin-top: 0; }
+        h3 { color: var(--accent); font-size: 0.9em; text-transform: uppercase; margin-top: 20px; }
+
+        ul { list-style: none; padding: 0; }
+        li { margin-bottom: 12px; padding-left: 20px; position: relative; }
+        li::before { content: "▹"; position: absolute; left: 0; color: var(--accent); font-weight: bold; }
+
+        .salary-badge { background: rgba(46, 204, 113, 0.1); color: #2ecc71; padding: 4px 10px; border-radius: 8px; font-weight: bold; font-size: 0.9em; }
+
+        /* Car Gallery Section */
+        .car-gallery {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 15px;
+            margin-top: 15px;
+        }
+
+        .car-item {
+            text-align: center;
+            font-size: 0.8em;
+            background: rgba(0,0,0,0.2);
+            padding: 10px;
+            border-radius: 12px;
+        }
+
+        .car-item img {
+            width: 100%;
+            height: 100px;
+            object-fit: cover;
+            border-radius: 8px;
+            margin-bottom: 8px;
+            filter: grayscale(0.5);
+            transition: 0.3s;
+        }
+        .car-item:hover img { filter: grayscale(0); transform: scale(1.05); }
+
+        @media (max-width: 768px) { .category-grid { grid-template-columns: 1fr; } .car-gallery { grid-template-columns: 1fr; } }
+    </style>
